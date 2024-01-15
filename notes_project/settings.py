@@ -39,7 +39,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'notes_project.urls'
+ROOT_URLCONF = 'notesproject2024.urls'
 
 TEMPLATES = [
     {
@@ -57,7 +57,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'notes_project.wsgi.application'
+WSGI_APPLICATION = 'notesproject2024.wsgi.application'
 
 
 # Database

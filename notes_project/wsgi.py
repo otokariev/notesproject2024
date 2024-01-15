@@ -1,5 +1,5 @@
 """
-WSGI config for notes_project project.
+WSGI config for notesproject2024 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'notes_project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'notesproject2024.settings')
 
 application = get_wsgi_application()
